@@ -1,0 +1,169 @@
+:root {
+    ---color-secondary: #feb900;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+/* header */
+.titik {
+    color: var(---color-secondary);
+}
+
+header {
+    width: 100%;
+    z-index: 2;
+    background: transparent;
+}
+
+.header-padding {
+    padding: 25px 150px;
+}
+
+.nav-link {
+    font-size: 14px;
+    color: rgb(206, 201, 201);
+    /* filter: brightness(0.8); */
+    font-weight: 400;
+}
+
+.nav-item::after {
+    content: "";
+    background-color: var(---color-secondary);
+    width: 0%;
+    display: block;
+    height: 2px;
+    transition: .5s;
+}
+
+.nav-item :hover {
+    color: white;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
+
+.img-slide {
+    filter: brightness(0.3);
+}
+
+.judul {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.judul::after {
+    content: "";
+    background-color: var(---color-secondary);
+    width: 15%;
+    height: 4px;
+    margin: auto;
+    display: block;
+}
+
+/* .btn{
+    border-radius: 50px;
+    border-color: #feb900;
+    border-width: 2px;
+    padding: 12px 40px;
+    color: white;
+}
+
+.btn :hover{
+    color: white;
+} */
+
+.btn-start {
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+    text-transform: uppercase;
+    padding: 12px 40px;
+    border-radius: 50px;
+    border: 2px solid var(---color-secondary);
+
+}
+
+.btn-start:hover {
+    background: var(---color-secondary);
+    color: white;
+}
+
+/* Section Form Quotes */
+#form-title-kanan::after {
+    content: "";
+    background-color: var(---color-secondary);
+    width: 15%;
+    height: 4px;
+    display: block;
+    margin-top: 12px;
+}
+
+#btn-submit {
+    background: var(---color-secondary);
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px
+}
+
+/* Section Service Tab */
+
+.btn {
+    border: none;
+    border-radius: 0 !important;
+}
+
+.btn-link {
+    color: grey !important;
+    font-weight: 600 !important;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 18px !important;
+    transition: .3s;
+}
+
+.btn-link:hover {
+    color: #feb900 !important;
+}
+
+.nav-item .btn-link.active {
+    border-bottom: 3px solid var(--color-secondary);
+    color: #feb900 !important;
+}
+
+.header-constructions::before h2{
+    content: "";
+    background-color: var(---color-secondary);
+    width: 15%;
+    height: 4px;
+    margin: auto;
+    display: block;
+}
+
+/* Section Service Tab */
+
+
+
+.list {
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+.list:hover {
+    color: #feb900;
+    cursor: pointer;
+}
+
+.list.active {
+    color: #feb900;
+}
+
+
+
+
+
