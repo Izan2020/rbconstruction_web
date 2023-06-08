@@ -136,7 +136,7 @@ header {
     color: #feb900 !important;
 }
 
-.header-constructions::before h2{
+.header-constructions::before .title-constructions {
     content: "";
     background-color: var(---color-secondary);
     width: 15%;
@@ -163,7 +163,67 @@ header {
     color: #feb900;
 }
 
+/* Our Projects */
+.overlay-content {
+    transition: .3s;
+    /* Todo : Default Opacity 0 */
+}
 
+.overlay-content .icons {
+    position: absolute;
+    top: 50%;
+    left: 42%;
 
+}
 
+.overlay-content .icons i {
+    transition: .3s;
+}
 
+.overlay-content .icons i:hover {
+    color: var(---color-secondary);
+}
+
+.overlay-content h4 {
+    position: absolute;
+    top: 8px;
+    left: 14px;
+    background-color: var(---color-secondary);
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.overlay-content p {
+    position: absolute;
+    bottom: 8px;
+    left: 12%;
+    color: gainsboro;
+    font-weight: bold;
+
+}
+
+.image-container img {
+    transition: .3s;
+
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+.image-container:hover img {
+
+    transform: scale(1.1);
+
+    opacity: 0.3;
+}
+
+.image-container .overlay-content {
+    opacity: 0;
+    transition: .3s;
+}
+
+.image-container:hover .overlay-content {
+    opacity: 1;
+}
