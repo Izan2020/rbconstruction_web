@@ -227,3 +227,38 @@ header {
 .image-container:hover .overlay-content {
     opacity: 1;
 }
+
+.card-recent-post:hover {
+
+}
+
+.footer {
+    color: #fff;
+    
+    background-size: cover;
+    font-size: 14px;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.585), rgba(44, 44, 44, 0.702)), url(assets/carousel/hero-carousel-1.jpg);
+
+    padding: 80px 0 60px 0;
+    position: relative;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.footer-links ul li a{
+    text-decoration: none;
+    color: rgb(166, 166, 166);
+    transition: .3s;
+}
+
+.footer-links ul li a:hover{
+    
+    color: rgb(255, 255, 255);
+    
+}
+
+.footer-links ul {
+    list-style-type: none;
+    
+}
