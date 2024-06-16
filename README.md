@@ -1,5 +1,7 @@
 ![foto](https://i.imgur.com/zgXMsET.png)
+
 [![Technologies](https://skillicons.dev/icons?i=bootstrap,html,css)](https://skillicons.dev)
+
 # RB Construction Website
 
 RB Construction using the Bootstrap framework. The website design was originally sourced from Dribbble and serves as a practice project to enhance Bootstrap skills and showcase frontend development abilities.
